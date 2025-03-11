@@ -165,6 +165,15 @@
                         <option value="p1600">Pawan - 1600</option>
                         <option value="p2000">Pawan - 2000</option>
                     </select>
+                    <h4>Gas</h4>
+                        <select id="gas" class="constant_field" autocomplete="off">
+                            <option value="he">Helium</option>
+                            <option value="h">Hydrogen</option>
+                            <option value="ch4">Methane</option>
+                            <option value="boc">BOC Balloon Gas</option>
+                            <option value="custom">Custom (set in Advanced)</option>
+                        </select>
+                        <br />
                 </div>
                 <div class="five columns alpha grey float second">
                     <div class="sign"></div>
@@ -197,14 +206,7 @@
                 <div class="thirteen columns alpha grey fourth closed">
                     <h4>Constants (Advanced)</h4>
                     <div class="columns four" style="display: none">
-                        <label class="constant_label" for="gas">Gas</label><br />
-                        <select id="gas" class="constant_field" autocomplete="off">
-                            <option value="he">Helium</option>
-                            <option value="h">Hydrogen</option>
-                            <option value="ch4">Methane</option>
-                            <option value="boc">BOC Balloon Gas</option>
-                            <option value="custom">Custom</option>
-                        </select><br />
+                        
                         <label class="constant_label" for="rho_g">Gas Density (kg/m<sup>3</sup>)</label><br />
                         <input type="text" id="rho_g" value="0.1786" class="constant_field" size="9" disabled="disabled"/><br />
                     </div>
